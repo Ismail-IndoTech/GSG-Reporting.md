@@ -35,11 +35,11 @@
 
 ### Lokasi Produksi yang Didukung
 
-| Lokasi | Kode   | Deskripsi                              |
-| ------ | ------ | -------------------------------------- |
-| Gipsum | gipsum | Area produksi Gipsum                   |
-| Kaptan | kaptan | Area produksi Kaptan                   |
-| NCG    | ncg    | Area produksi NCG (Non-Calcium Gypsum) |
+| Lokasi   | Kode     | Deskripsi                              |
+| ------   | ------   | -------------------------------------- |
+| Kaptan   | kaptan   | Area produksi Kaptan                   |
+| Petrocas | petrocas | Area produksi Petrocas                 |
+| NCG      | ncg      | Area produksi NCG (Non-Calcium Gypsum) |
 
 ---
 
@@ -117,11 +117,11 @@
 
 #### Foto Aktifitas
 
-| Jenis Foto                | Type     | Deskripsi                             |
-| ------------------------- | -------- | ------------------------------------- |
-| **Foto Aktifitas Gipsum** | `gipsum` | Dokumentasi aktivitas produksi gipsum |
-| **Foto Aktifitas Kaptan** | `kaptan` | Dokumentasi aktivitas produksi kaptan |
-| **Foto Aktifitas NCG**    | `ncg`    | Dokumentasi aktivitas produksi NCG    |
+| Jenis Foto                  | Type       | Deskripsi                               |
+| -------------------------   | --------   | -------------------------------------   |
+| **Foto Aktifitas Kaptan**   | `kaptan`   | Dokumentasi aktivitas produksi kaptan   |
+| **Foto Aktifitas Petrocas** | `petrocas` | Dokumentasi aktivitas produksi petrocas |
+| **Foto Aktifitas NCG**      | `ncg`      | Dokumentasi aktivitas produksi NCG      |
 
 ### 3.6 Manajemen Shift Kerja
 
@@ -618,7 +618,7 @@ flowchart TD
 
 ### 7.1 Login ke Sistem
 
-1. Buka aplikasi melalui browser (contoh: `http://localhost:8000`)
+1. Buka aplikasi melalui browser (contoh: `http:s//kpn-grahasaranagresik.com`)
 2. Masukkan **Email** dan **Password** yang terdaftar
 3. Klik tombol **Login**
 4. Sistem akan mengarahkan ke dashboard sesuai role Anda
@@ -699,7 +699,7 @@ flowchart TD
 
 #### Update Hasil Produksi
 
-1. Klik tombol **Update Produksi**
+1. Klik tombol **Produksi**
 2. Modal terbuka
 3. Input hasil produksi dalam Ton
 4. Klik **Simpan**
@@ -752,6 +752,7 @@ flowchart TD
 5. Notifikasi Toastr akan muncul
 
 #### Mengelola Lokasi
+==== `Sementara fitur edit dan tambah di kunci`
 
 1. Buka menu **Setting > Location**
 2. Untuk menambah lokasi, klik **+ Tambah Lokasi**
@@ -762,6 +763,7 @@ flowchart TD
 4. Klik **Simpan**
 
 #### Mengelola Shift
+==== `Sementara fitur edit dan tambah di kunci`
 
 1. Buka menu **Setting > Shift**
 2. Untuk menambah shift, klik **+ Tambah Shift**
