@@ -23,22 +23,22 @@
 ### Manajemen Shift & Kerja
 
 -   🔐 **Multi-Role Authentication** - Admin, Pengawas, Monitoring
--   📍 **Manajemen Lokasi** - Kelola lokasi kerja (Gipsum, Kaptan, NCG)
+-   📍 **Manajemen Lokasi** - Kelola lokasi kerja (Kaptan, Petrocas, NCG)
 -   ⏰ **Manajemen Shift** - 3 Shift kerja (Pagi/Siang/Malam) dengan dukungan overnight shift
--   📊 **Dashboard Real-time** - Pantau status shift dan loading secara langsung
+-   📊 **Dashboard Real-time** - Pantau status shift dan loading secara langsung (Real-Time)
 -   🎯 **Pemilihan Shift Otomatis** - Deteksi shift berdasarkan jam kerja saat ini
 
 ### Pencatatan & Dokumentasi
 
--   🚛 **Pencatatan Loading (Muat)** - Input Plat Nomor, Tonase, dan foto bukti muat
+-   🚛 **Pencatatan Loading (Muat)** - Input Plat Nomor, Tonase, dan foto bukti muat (DO-Muat)
 -   📸 **Foto Sample** - Upload foto timbang dan foto kadar air
--   🏭 **Foto Aktifitas** - Dokumentasi aktivitas Gipsum, Kaptan, dan NCG
+-   🏭 **Foto Aktifitas** - Upload foto dokumentasi aktivitas Gipsum, Kaptan, dan NCG
 -   📦 **Manajemen OLT/OKT** - Input pengurangan bag (OLT) dan tambahan bag (OKT)
 -   ✏️ **Edit Data Muat** - Koreksi data muat yang sudah diinput
 
 ### Pelaporan & Monitoring
 
--   📈 **Live Report** - Lihat data real-time per shift
+-   📈 **Live Report** - Lihat data real-time per shift dalam sehari
 -   📅 **History Schedule** - Riwayat jadwal shift yang sudah selesai
 -   📋 **Monitoring Data** - Pantau semua data per lokasi dan tanggal
 -   📊 **My Report** - Laporan pribadi pengawas
